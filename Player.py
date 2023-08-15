@@ -17,7 +17,9 @@ player.get_name()
 # Get the player's race
 race.display_race()
 
-# Get the player's class
-player_class.display_classes()
+race.roll_for_stats()
 
-print(player.name, race.player.character_race, race.player.character_subrace, player_class.player.character_class, player_class.player.character_subclass)
+# Get the player's class
+# player_class.display_classes()
+
+# print(player.name, race.player.character_race, race.player.character_subrace, player_class.player.character_class, player_class.player.character_subclass)
